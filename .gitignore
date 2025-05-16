@@ -1,35 +1,15 @@
-# =======================
-# Java + Maven .gitignore
-# =======================
-
-# Compiled class files
-*.class
-
-# Maven target directory
+# Ignora diretórios de build
 /target/
 
-# Logs
-*.log
+# Ignora arquivos compilados
+*.class
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# IDEs
-# IntelliJ IDEA
+# Ignora configurações de IDEs
 .idea/
 *.iml
-*.ipr
-*.iws
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# VS Code
 .vscode/
 
-# Other
-*.swp
-*.swo
+# Outros inúteis
+*.log
+.DS_Store
+Thumbs.db
