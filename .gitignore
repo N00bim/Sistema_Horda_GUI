@@ -1,15 +1,15 @@
-# Ignora diretórios de build
+# Build
 /target/
 
-# Ignora arquivos compilados
+# Arquivos compilados
 *.class
 
-# Ignora configurações de IDEs
+# IDEs
 .idea/
 *.iml
 .vscode/
 
-# Outros inúteis
+# Logs e arquivos temporários
 *.log
 .DS_Store
 Thumbs.db
